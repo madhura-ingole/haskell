@@ -4,7 +4,7 @@ import SimpleService.Config (cfgDBConnString, readConfig)
 import SimpleService.DB.Connect (acquirePool, migrateDb)
 import qualified SimpleService.HTTP.Server as Server
 import SimpleService.System.Log (configGlobal)
-
+#add comment
 start :: IO ()
 start = do
   configGlobal
